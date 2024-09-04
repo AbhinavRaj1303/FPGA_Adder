@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.1487",
+   "Default View_TopLeft":"307,-98",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_a0_0 -pg 1 -lvl 0 -x -420 -y -50 -defaultsOSRD
+preplace port port-id_a1_0 -pg 1 -lvl 0 -x -420 -y -30 -defaultsOSRD
+preplace port port-id_a2_0 -pg 1 -lvl 0 -x -420 -y -10 -defaultsOSRD
+preplace port port-id_a3_0 -pg 1 -lvl 0 -x -420 -y 10 -defaultsOSRD
+preplace port port-id_b0_0 -pg 1 -lvl 0 -x -420 -y -150 -defaultsOSRD
+preplace port port-id_b1_0 -pg 1 -lvl 0 -x -420 -y 30 -defaultsOSRD
+preplace port port-id_b2_0 -pg 1 -lvl 0 -x -420 -y 50 -defaultsOSRD
+preplace port port-id_b3_0 -pg 1 -lvl 0 -x -420 -y 70 -defaultsOSRD
+preplace port port-id_c3_0 -pg 1 -lvl 3 -x 910 -y 60 -defaultsOSRD
+preplace port port-id_s0_0 -pg 1 -lvl 3 -x 910 -y -20 -defaultsOSRD
+preplace port port-id_s1_0 -pg 1 -lvl 3 -x 910 -y 0 -defaultsOSRD
+preplace port port-id_s2_0 -pg 1 -lvl 3 -x 910 -y 20 -defaultsOSRD
+preplace port port-id_s3_0 -pg 1 -lvl 3 -x 910 -y 40 -defaultsOSRD
+preplace inst fourbit_adder_0 -pg 1 -lvl 2 -x 750 -y 50 -defaultsOSRD
+preplace netloc a0_0_1 1 0 2 NJ -50 570
+preplace netloc a1_0_1 1 0 2 NJ -30 560
+preplace netloc a2_0_1 1 0 2 NJ -10 540
+preplace netloc a3_0_1 1 0 2 NJ 10 530
+preplace netloc b0_0_1 1 0 2 NJ -150 550
+preplace netloc b1_0_1 1 0 2 NJ 30 520
+preplace netloc b2_0_1 1 0 2 NJ 50 510
+preplace netloc b3_0_1 1 0 2 NJ 70 500
+preplace netloc fourbit_adder_0_c3 1 2 1 890 60n
+preplace netloc fourbit_adder_0_s0 1 2 1 850 -20n
+preplace netloc fourbit_adder_0_s1 1 2 1 860 0n
+preplace netloc fourbit_adder_0_s2 1 2 1 870 20n
+preplace netloc fourbit_adder_0_s3 1 2 1 880 40n
+levelinfo -pg 1 -420 480 750 910
+pagesize -pg 1 -db -bbox -sgen -510 -380 1000 420
+"
+}
+0

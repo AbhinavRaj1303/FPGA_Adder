@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Apr  9 16:18:07 2024" VIVADOVERSION="2023.2">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:arty-a7-100:part0:1.1" DEVICE="7a100t" NAME="design_1" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="a0_0" SIGIS="data" SIGNAME="External_Ports_a0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="a0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a1_0" SIGIS="data" SIGNAME="External_Ports_a1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="a1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a2_0" SIGIS="data" SIGNAME="External_Ports_a2_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="a2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a3_0" SIGIS="data" SIGNAME="External_Ports_a3_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="a3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b0_0" SIGIS="data" SIGNAME="External_Ports_b0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="b0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b1_0" SIGIS="data" SIGNAME="External_Ports_b1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="b1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b2_0" SIGIS="data" SIGNAME="External_Ports_b2_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="b2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b3_0" SIGIS="data" SIGNAME="External_Ports_b3_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="b3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="c3_0" SIGIS="data" SIGNAME="fourbit_adder_0_c3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="c3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s0_0" SIGIS="data" SIGNAME="fourbit_adder_0_s0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="s0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s1_0" SIGIS="data" SIGNAME="fourbit_adder_0_s1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="s1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s2_0" SIGIS="data" SIGNAME="fourbit_adder_0_s2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="s2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="s3_0" SIGIS="data" SIGNAME="fourbit_adder_0_s3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="fourbit_adder_0" PORT="s3"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2113465441" FULLNAME="/fourbit_adder_0" HWVERSION="1.0" INSTANCE="fourbit_adder_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="fourbit_adder" VLNV="xilinx.com:hls:fourbit_adder:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_fourbit_adder_0_0"/>
+        <PARAMETER NAME="II" VALUE="x"/>
+        <PARAMETER NAME="clk_period" VALUE="10"/>
+        <PARAMETER NAME="combinational" VALUE="1"/>
+        <PARAMETER NAME="latency" VALUE="0"/>
+        <PARAMETER NAME="machine" VALUE="64"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="data" SIGNAME="External_Ports_a0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="data" SIGNAME="External_Ports_a1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a2" SIGIS="data" SIGNAME="External_Ports_a2_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a2_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a3" SIGIS="data" SIGNAME="External_Ports_a3_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a3_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="data" SIGNAME="External_Ports_b0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b1" SIGIS="data" SIGNAME="External_Ports_b1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b2" SIGIS="data" SIGNAME="External_Ports_b2_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b2_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b3" SIGIS="data" SIGNAME="External_Ports_b3_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b3_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="c3" SIGIS="data" SIGNAME="fourbit_adder_0_c3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="c3_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s0" SIGIS="data" SIGNAME="fourbit_adder_0_s0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s1" SIGIS="data" SIGNAME="fourbit_adder_0_s1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s2" SIGIS="data" SIGNAME="fourbit_adder_0_s2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s2_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="s3" SIGIS="data" SIGNAME="fourbit_adder_0_s3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s3_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

@@ -1,0 +1,48 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/fpga/Desktop/test/ADDER/solution1/csynth.tcl:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=fourbit_adder" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=a0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=a1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=a2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=a3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=b0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=b1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:23:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=b2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:24:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=b3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=s0" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:26:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=s1" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:27:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=s2" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=s3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="adder.cpp:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fourbit_adder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=c3" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

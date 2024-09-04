@@ -1,0 +1,622 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -clean -O -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building optimized C Simulation binaries
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.47 seconds. CPU system time: 0.15 seconds. Elapsed time: 0.71 seconds; current allocated memory: 0.000 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 232.004 MB.
+INFO: [HLS 200-10] Analyzing design file 'adder.cpp' ... 
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:11:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:12:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:13:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:14:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:15:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:16:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:17:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:18:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:19:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (adder.cpp:36:9)
+ERROR: [HLS 207-5496] Resource with core_name: AND_LUT pragma is ignored, because this core doesn't exist at all  (adder.cpp:36:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (adder.cpp:37:9)
+ERROR: [HLS 207-5496] Resource with core_name: AND_LUT pragma is ignored, because this core doesn't exist at all  (adder.cpp:37:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (adder.cpp:38:9)
+ERROR: [HLS 207-5496] Resource with core_name: AND_LUT pragma is ignored, because this core doesn't exist at all  (adder.cpp:38:9)
+WARNING: [HLS 207-5536] 'Resource pragma' is deprecated, use 'bind_op/bind_storage pragma' instead (adder.cpp:39:9)
+ERROR: [HLS 207-5496] Resource with core_name: AND_LUT pragma is ignored, because this core doesn't exist at all  (adder.cpp:39:9)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0.38 seconds. CPU system time: 0.17 seconds. Elapsed time: 0.97 seconds; current allocated memory: 0.688 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean -O -setup -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building optimized C Simulation binaries
+INFO: [HLS 200-2035] Skipping execution of C Simulation due to 'setup' option
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.46 seconds. CPU system time: 0.12 seconds. Elapsed time: 0.69 seconds; current allocated memory: 0.000 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 232.199 MB.
+INFO: [HLS 200-10] Analyzing design file 'adder.cpp' ... 
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:11:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:12:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:13:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:14:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:15:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:16:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:17:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:18:9)
+ERROR: [HLS 207-5512] '#pragma HLS' is only allowed in function scope (adder.cpp:19:9)
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0.37 seconds. CPU system time: 0.16 seconds. Elapsed time: 0.95 seconds; current allocated memory: 0.402 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean -O -setup -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building optimized C Simulation binaries
+INFO: [HLS 200-2035] Skipping execution of C Simulation due to 'setup' option
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.43 seconds. CPU system time: 0.15 seconds. Elapsed time: 0.66 seconds; current allocated memory: 0.000 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 232.199 MB.
+INFO: [HLS 200-10] Analyzing design file 'adder.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.97 seconds. CPU system time: 0.36 seconds. Elapsed time: 1.49 seconds; current allocated memory: 232.777 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 81 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 72 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 71 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 71 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 78 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 91 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.15 seconds. CPU system time: 0.3 seconds. Elapsed time: 7.17 seconds; current allocated memory: 235.266 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.266 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 235.266 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.266 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (adder.cpp:54:1) in function 'fourbit_adder'... converting 7 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 255.867 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 255.867 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fourbit_adder' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.03 seconds; current allocated memory: 255.867 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.867 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fourbit_adder' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fourbit_adder'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.39 seconds; current allocated memory: 255.867 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.12 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 255.867 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.21 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.23 seconds; current allocated memory: 259.605 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for fourbit_adder.
+INFO: [VLOG 209-307] Generating Verilog RTL for fourbit_adder.
+INFO: [HLS 200-789] **** Estimated Fmax: 255.62 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 3.65 seconds. CPU system time: 0.72 seconds. Elapsed time: 9.75 seconds; current allocated memory: 27.551 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean -O -setup -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building optimized C Simulation binaries
+INFO: [HLS 200-2035] Skipping execution of C Simulation due to 'setup' option
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.35 seconds. CPU system time: 0.11 seconds. Elapsed time: 0.53 seconds; current allocated memory: 0.000 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 232.199 MB.
+INFO: [HLS 200-10] Analyzing design file 'adder.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.3 seconds. CPU system time: 0.27 seconds. Elapsed time: 0.59 seconds; current allocated memory: 232.840 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 78 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 76 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 87 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 88 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.16 seconds. CPU system time: 0.32 seconds. Elapsed time: 7.18 seconds; current allocated memory: 235.293 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.293 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 235.293 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.293 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (adder.cpp:1:16) to (adder.cpp:43:1) in function 'fourbit_adder'... converting 7 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 255.668 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.668 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fourbit_adder' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.03 seconds; current allocated memory: 255.668 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 255.668 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s0' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s3' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's3' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/c3' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'c3' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fourbit_adder' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fourbit_adder'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.9 seconds; current allocated memory: 255.668 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 255.668 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.27 seconds; current allocated memory: 260.062 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for fourbit_adder.
+INFO: [VLOG 209-307] Generating Verilog RTL for fourbit_adder.
+INFO: [HLS 200-789] **** Estimated Fmax: 255.62 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 3.03 seconds. CPU system time: 0.65 seconds. Elapsed time: 9.47 seconds; current allocated memory: 28.047 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -clean -O -setup -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building optimized C Simulation binaries
+INFO: [HLS 200-2035] Skipping execution of C Simulation due to 'setup' option
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0.35 seconds. CPU system time: 0.1 seconds. Elapsed time: 0.54 seconds; current allocated memory: 0.000 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.14 seconds; current allocated memory: 232.199 MB.
+INFO: [HLS 200-10] Analyzing design file 'adder.cpp' ... 
+WARNING: [HLS 207-5568] Unsupported interface port data type in '#pragma HLS interface ap_memory' (adder.cpp:24:38)
+WARNING: [HLS 207-5568] Unsupported interface port data type in '#pragma HLS interface ap_memory' (adder.cpp:25:38)
+WARNING: [HLS 207-5568] Unsupported interface port data type in '#pragma HLS interface ap_memory' (adder.cpp:26:38)
+WARNING: [HLS 207-5568] Unsupported interface port data type in '#pragma HLS interface ap_memory' (adder.cpp:27:38)
+WARNING: [HLS 207-5568] Unsupported interface port data type in '#pragma HLS interface ap_memory' (adder.cpp:28:38)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.3 seconds. CPU system time: 0.29 seconds. Elapsed time: 0.68 seconds; current allocated memory: 232.883 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 73 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 71 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 70 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 69 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 87 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 88 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.12 seconds. CPU system time: 0.37 seconds. Elapsed time: 7.18 seconds; current allocated memory: 235.082 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.082 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 235.254 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 235.332 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (adder.cpp:1:16) to (adder.cpp:43:1) in function 'fourbit_adder'... converting 7 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 256.023 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 256.023 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fourbit_adder' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.03 seconds; current allocated memory: 256.023 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 256.023 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s0' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s3' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/c3' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fourbit_adder' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fourbit_adder'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 256.023 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.14 seconds; current allocated memory: 256.023 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.28 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.3 seconds; current allocated memory: 260.336 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for fourbit_adder.
+INFO: [VLOG 209-307] Generating Verilog RTL for fourbit_adder.
+INFO: [HLS 200-789] **** Estimated Fmax: 255.62 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 3.03 seconds. CPU system time: 0.72 seconds. Elapsed time: 8.94 seconds; current allocated memory: 28.281 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 232.199 MB.
+INFO: [HLS 200-10] Analyzing design file 'adder.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.31 seconds. CPU system time: 0.25 seconds. Elapsed time: 0.62 seconds; current allocated memory: 232.840 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 78 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 76 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 74 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 87 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 88 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.12 seconds. CPU system time: 0.34 seconds. Elapsed time: 7.17 seconds; current allocated memory: 235.293 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.293 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.293 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 235.293 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (adder.cpp:1:16) to (adder.cpp:43:1) in function 'fourbit_adder'... converting 7 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 255.914 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 255.914 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fourbit_adder' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 255.914 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 255.914 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s0' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s3' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's3' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/c3' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'c3' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fourbit_adder' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fourbit_adder'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 255.914 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.13 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.15 seconds; current allocated memory: 255.914 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.26 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.34 seconds; current allocated memory: 260.059 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for fourbit_adder.
+INFO: [VLOG 209-307] Generating Verilog RTL for fourbit_adder.
+INFO: [HLS 200-789] **** Estimated Fmax: 255.62 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 3 seconds. CPU system time: 0.65 seconds. Elapsed time: 8.69 seconds; current allocated memory: 28.047 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -output=/home/fpga/Desktop/test
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -output /home/fpga/Desktop/test 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output /home/fpga/Desktop/test 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 13.26 seconds. CPU system time: 0.42 seconds. Elapsed time: 15.82 seconds; current allocated memory: 5.949 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -output=/home/fpga/Desktop/test
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -output /home/fpga/Desktop/test -rtl verilog 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 232.172 MB.
+INFO: [HLS 200-10] Analyzing design file 'adder.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.27 seconds. CPU system time: 0.31 seconds. Elapsed time: 0.6 seconds; current allocated memory: 233.211 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 79 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 77 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 76 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 76 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 75 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 88 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 89 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: /home/fpga/Desktop/test/ADDER/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.17 seconds. CPU system time: 0.35 seconds. Elapsed time: 7.22 seconds; current allocated memory: 235.453 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.453 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 235.582 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 235.645 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (adder.cpp:1:16) to (adder.cpp:44:1) in function 'fourbit_adder'... converting 7 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 256.105 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 256.105 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'fourbit_adder' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.02 seconds; current allocated memory: 256.105 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 256.105 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fourbit_adder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/a3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b0' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b1' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b2' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/b3' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s0' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/s3' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 's3' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'fourbit_adder/c3' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'c3' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'fourbit_adder' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fourbit_adder'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 256.105 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 256.105 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.25 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.27 seconds; current allocated memory: 260.805 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for fourbit_adder.
+INFO: [VLOG 209-307] Generating Verilog RTL for fourbit_adder.
+INFO: [HLS 200-789] **** Estimated Fmax: 255.62 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 3.02 seconds. CPU system time: 0.72 seconds. Elapsed time: 8.8 seconds; current allocated memory: 28.816 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -output=/home/fpga/Desktop/test/export_final
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -output /home/fpga/Desktop/test/export_final -rtl verilog 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output /home/fpga/Desktop/test/export_final 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file export_final/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 13 seconds. CPU system time: 0.43 seconds. Elapsed time: 15.54 seconds; current allocated memory: 6.234 MB.

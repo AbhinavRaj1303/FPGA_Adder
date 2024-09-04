@@ -1,0 +1,156 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xBB49FA3234AD1C0F",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../project_1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "fourbit_adder_0": "",
+      "vio_0": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "fourbit_adder_0": {
+        "vlnv": "xilinx.com:hls:fourbit_adder:1.0",
+        "ip_revision": "2113465441",
+        "xci_name": "design_1_fourbit_adder_0_0",
+        "xci_path": "ip/design_1_fourbit_adder_0_0/design_1_fourbit_adder_0_0.xci",
+        "inst_hier_path": "fourbit_adder_0"
+      },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "ip_revision": "24",
+        "xci_name": "design_1_vio_0_0",
+        "xci_path": "ip/design_1_vio_0_0/design_1_vio_0_0.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "5"
+          },
+          "C_NUM_PROBE_OUT": {
+            "value": "8"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "vio_0/clk"
+        ]
+      },
+      "fourbit_adder_0_c3": {
+        "ports": [
+          "fourbit_adder_0/c3",
+          "vio_0/probe_in4"
+        ]
+      },
+      "fourbit_adder_0_s0": {
+        "ports": [
+          "fourbit_adder_0/s0",
+          "vio_0/probe_in0"
+        ]
+      },
+      "fourbit_adder_0_s1": {
+        "ports": [
+          "fourbit_adder_0/s1",
+          "vio_0/probe_in1"
+        ]
+      },
+      "fourbit_adder_0_s2": {
+        "ports": [
+          "fourbit_adder_0/s2",
+          "vio_0/probe_in2"
+        ]
+      },
+      "fourbit_adder_0_s3": {
+        "ports": [
+          "fourbit_adder_0/s3",
+          "vio_0/probe_in3"
+        ]
+      },
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "fourbit_adder_0/a0"
+        ]
+      },
+      "vio_0_probe_out1": {
+        "ports": [
+          "vio_0/probe_out1",
+          "fourbit_adder_0/a1"
+        ]
+      },
+      "vio_0_probe_out2": {
+        "ports": [
+          "vio_0/probe_out2",
+          "fourbit_adder_0/a2"
+        ]
+      },
+      "vio_0_probe_out3": {
+        "ports": [
+          "vio_0/probe_out3",
+          "fourbit_adder_0/a3"
+        ]
+      },
+      "vio_0_probe_out4": {
+        "ports": [
+          "vio_0/probe_out4",
+          "fourbit_adder_0/b0"
+        ]
+      },
+      "vio_0_probe_out5": {
+        "ports": [
+          "vio_0/probe_out5",
+          "fourbit_adder_0/b1"
+        ]
+      },
+      "vio_0_probe_out6": {
+        "ports": [
+          "vio_0/probe_out6",
+          "fourbit_adder_0/b2"
+        ]
+      },
+      "vio_0_probe_out7": {
+        "ports": [
+          "vio_0/probe_out7",
+          "fourbit_adder_0/b3"
+        ]
+      }
+    }
+  }
+}

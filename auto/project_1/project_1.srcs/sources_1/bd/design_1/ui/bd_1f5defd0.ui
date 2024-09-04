@@ -1,0 +1,29 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-162,-2",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_0 -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace inst fourbit_adder_0 -pg 1 -lvl 2 -x 420 -y 150 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 180 -y 150 -defaultsOSRD
+preplace netloc fourbit_adder_0_s0 1 0 3 40 20 NJ 20 520
+preplace netloc fourbit_adder_0_s1 1 0 3 40 280 NJ 280 550
+preplace netloc fourbit_adder_0_s2 1 0 3 30 290 NJ 290 540
+preplace netloc fourbit_adder_0_s3 1 0 3 20 300 NJ 300 520
+preplace netloc fourbit_adder_0_c3 1 0 3 10 10 NJ 10 530
+preplace netloc vio_0_probe_out0 1 1 1 N 80
+preplace netloc vio_0_probe_out1 1 1 1 N 100
+preplace netloc vio_0_probe_out2 1 1 1 N 120
+preplace netloc vio_0_probe_out3 1 1 1 N 140
+preplace netloc vio_0_probe_out4 1 1 1 N 160
+preplace netloc vio_0_probe_out5 1 1 1 N 180
+preplace netloc vio_0_probe_out6 1 1 1 N 200
+preplace netloc vio_0_probe_out7 1 1 1 N 220
+preplace netloc clk_0_1 1 0 1 N 100
+levelinfo -pg 1 -10 180 420 570
+pagesize -pg 1 -db -bbox -sgen -100 0 570 310
+"
+}
+

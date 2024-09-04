@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="adder.cpp" path="/home/fpga/Desktop/test/adder.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tstbnch.cpp" path="/home/fpga/Desktop/test/tstbnch.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

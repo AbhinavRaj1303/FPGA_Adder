@@ -1,0 +1,238 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xED85D267ED85D267",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../project_final.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "fourbit_adder_0": ""
+    },
+    "ports": {
+      "a0_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "a1_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "a2_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "a3_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "b0_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "b1_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "b2_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "b3_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "c3_0": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "s0_0": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "s1_0": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "s2_0": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "s3_0": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "fourbit_adder_0": {
+        "vlnv": "xilinx.com:hls:fourbit_adder:1.0",
+        "ip_revision": "2113465441",
+        "xci_name": "design_1_fourbit_adder_0_0",
+        "xci_path": "ip/design_1_fourbit_adder_0_0/design_1_fourbit_adder_0_0.xci",
+        "inst_hier_path": "fourbit_adder_0"
+      }
+    },
+    "nets": {
+      "a0_0_1": {
+        "ports": [
+          "a0_0",
+          "fourbit_adder_0/a0"
+        ]
+      },
+      "a1_0_1": {
+        "ports": [
+          "a1_0",
+          "fourbit_adder_0/a1"
+        ]
+      },
+      "a2_0_1": {
+        "ports": [
+          "a2_0",
+          "fourbit_adder_0/a2"
+        ]
+      },
+      "a3_0_1": {
+        "ports": [
+          "a3_0",
+          "fourbit_adder_0/a3"
+        ]
+      },
+      "b0_0_1": {
+        "ports": [
+          "b0_0",
+          "fourbit_adder_0/b0"
+        ]
+      },
+      "b1_0_1": {
+        "ports": [
+          "b1_0",
+          "fourbit_adder_0/b1"
+        ]
+      },
+      "b2_0_1": {
+        "ports": [
+          "b2_0",
+          "fourbit_adder_0/b2"
+        ]
+      },
+      "b3_0_1": {
+        "ports": [
+          "b3_0",
+          "fourbit_adder_0/b3"
+        ]
+      },
+      "fourbit_adder_0_c3": {
+        "ports": [
+          "fourbit_adder_0/c3",
+          "c3_0"
+        ]
+      },
+      "fourbit_adder_0_s0": {
+        "ports": [
+          "fourbit_adder_0/s0",
+          "s0_0"
+        ]
+      },
+      "fourbit_adder_0_s1": {
+        "ports": [
+          "fourbit_adder_0/s1",
+          "s1_0"
+        ]
+      },
+      "fourbit_adder_0_s2": {
+        "ports": [
+          "fourbit_adder_0/s2",
+          "s2_0"
+        ]
+      },
+      "fourbit_adder_0_s3": {
+        "ports": [
+          "fourbit_adder_0/s3",
+          "s3_0"
+        ]
+      }
+    }
+  }
+}

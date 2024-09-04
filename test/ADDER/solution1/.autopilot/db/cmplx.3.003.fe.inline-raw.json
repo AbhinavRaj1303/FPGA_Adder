@@ -1,0 +1,14 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "adder.cpp",
+    "fileloc": 1,
+    "instructions": 76,
+    "name": "fourbit_adder",
+    "stores": {
+      "T": 5
+    },
+    "total_instructions": 76
+  }
+}

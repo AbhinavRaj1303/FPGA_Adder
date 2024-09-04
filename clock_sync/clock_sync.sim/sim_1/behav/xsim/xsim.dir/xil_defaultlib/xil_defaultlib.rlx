@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/fpga/Desktop/clock_sync/clock_sync.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+/home/fpga/Desktop/clock_sync/clock_sync.srcs/sim_1/new/testbench_.v,1712654348,verilog,,,,testbench_,,,,,,,,
+/home/fpga/Desktop/clock_sync/clock_sync.srcs/sources_1/new/clock_divider_.v,1712654183,verilog,,/home/fpga/Desktop/clock_sync/clock_sync.srcs/sim_1/new/testbench_.v,,clock_divider_,,,,,,,,

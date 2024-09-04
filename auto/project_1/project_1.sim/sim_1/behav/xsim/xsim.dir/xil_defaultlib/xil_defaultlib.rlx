@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:21:30
+/home/fpga/Desktop/auto/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,1712656414,verilog,,,,design_1_wrapper,,,,,,,,
+/home/fpga/Desktop/auto/project_1/project_1.gen/sources_1/bd/design_1/ipshared/5153/hdl/verilog/fourbit_adder.v,1712656414,verilog,,/home/fpga/Desktop/auto/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_fourbit_adder_0_0/sim/design_1_fourbit_adder_0_0.v,,fourbit_adder,,,,,,,,
+/home/fpga/Desktop/auto/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_fourbit_adder_0_0/sim/design_1_fourbit_adder_0_0.v,1712656414,verilog,,/home/fpga/Desktop/auto/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_vio_0_0/sim/design_1_vio_0_0.v,,design_1_fourbit_adder_0_0,,,,,,,,
+/home/fpga/Desktop/auto/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_vio_0_0/sim/design_1_vio_0_0.v,1712656415,verilog,,/home/fpga/Desktop/auto/project_1/project_1.ip_user_files/bd/design_1/sim/design_1.v,,design_1_vio_0_0,,,,,,,,
+/home/fpga/Desktop/auto/project_1/project_1.ip_user_files/bd/design_1/sim/design_1.v,1712656414,verilog,,/home/fpga/Desktop/auto/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,,,,,,
+/home/fpga/Desktop/auto/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,

@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "fourbit_adder",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "fourbit_adder"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/fpga/Desktop/test/ADDER/solution1/csynth.tcl",
+    "sourceLine": 16,
+    "success": true
+  }
+]
